@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+
+    <body>
+      <h2>Please Fill All The Required Fields</h2>
+      <form id="form-2">
+        <fieldset>
+          <legend id="caption">Uniform</legend>
+          <label for="size">Size:</label>
+          <select name="" id="">
+            <option value="">S</option>
+            <option value="">M</option>
+            <option value="">L</option>
+          </select>
+          <br />
+          <br />
+          <label for="">Quantity:</label>
+          <input type="number" min="0" max="10" step="3" value="0" /> <br />
+          <br />
+          <label for="">Color:</label>
+          <input type="color" value="blue" /> <br />
+          <br />
+          <label for="">Sign:</label>
+          <input type="text" placeholder="plese write your full name" />
+          <input type="time" /> <br />
+          <br />
+          <legend id="caption">Comments:</legend>
+          <textarea
+            name="text"
+            id="textarea"
+            cols="78"
+            rows="10"
+            placeholder="Your Feedback!"
+          ></textarea>
+          <br />
+          <label for="">Rating:</label>
+          <input type="range" min="0" max="5" value="0" /> <br />
+          <br />
+          <button id="save">Save</button> <br />
+          <br />
+          <button id="send">Send</button>
+        </fieldset>
+        <br />
+        <button id="next"><a href="index.html">Previews Page</a></button>
+      </form>
+    </body>
+  </head>
+</html>

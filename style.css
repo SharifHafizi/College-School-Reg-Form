@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(#ff8008, #ffc837);
+}
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 25px;
+  text-shadow: 5px 5px 8px rgb(60, 59, 59);
+}
+div {
+  width: 40%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  text-shadow: 5px 5px 10px black;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 30px;
+}
+#image {
+  text-shadow: 5px 5px 10px black;
+  color: whitesmoke;
+}
+legend {
+  text-decoration: underline rgb(231, 27, 27);
+  font-size: 20px;
+}
+fieldset {
+  background: linear-gradient(lightblue, rgb(26, 170, 227));
+  padding: 10px;
+  border: groove rgb(200, 196, 196) 4px;
+  box-shadow: rgb(60, 59, 59) 5px 5px 4px;
+}
+#register:hover {
+  transform: rotate(360deg);
+}
+#register {
+  width: 40%;
+  border-radius: 5px;
+  border-color: rgb(44, 43, 43);
+  box-shadow: 5px 5px 5px rgb(65, 65, 65);
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 25%;
+  background: linear-gradient(#ff8008, #ffc837);
+  font-weight: 500;
+  font-size: large;
+  cursor: pointer;
+  transition: width 2s, height 2s, transform 2s;
+}
+#form-2 {
+  width: 40%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#textarea {
+  background: rgb(236, 229, 229);
+}
+#save {
+  width: 40%;
+  border-radius: 5px;
+  border-color: rgb(44, 43, 43);
+  box-shadow: 5px 5px 5px rgb(65, 65, 65);
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 25%;
+  background: linear-gradient(#ff8008, #ffc837);
+  font-weight: 500;
+  font-size: large;
+  cursor: pointer;
+}
+#send {
+  width: 40%;
+  border-radius: 5px;
+  border-color: rgb(44, 43, 43);
+  box-shadow: 5px 5px 5px rgb(65, 65, 65);
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 25%;
+  background: linear-gradient(#ff8008, #ffc837);
+  font-weight: 500;
+  font-size: large;
+  cursor: pointer;
+}
+#next {
+  text-align: center;
+  margin-left: 42%;
+  margin-right: 25%;
+  padding-left: auto;
+  padding-right: auto;
+  padding-block: block;
+  background: linear-gradient(lightblue, rgb(26, 170, 227));
+  border-radius: 5px;
+  border-color: rgb(44, 43, 43);
+  box-shadow: 5px 5px 5px rgb(65, 65, 65);
+}

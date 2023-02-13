@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>College/School</h1>
+      <h2>Student Registration Form</h2>
+      <label id="Image" for="pic">Student Image:</label>
+      <input type="file" size="5mb" required />
+      <button>Submit</button>
+
+      <form>
+        <fieldset>
+          <legend id="caption">ID</legend>
+          <label for="fname">Student Name:✳ </label>
+          <input type="text" placeholder="First Name" required autofocus />
+          <br />
+          <br />
+          <label for="lname">Last Name:</label>
+          <input type="text" placeholder="Last Name" maxlength="10" required />
+          <br />
+          <br />
+          <label for="fatherN">Father's Name:</label>
+          <input type="text" placeholder="Full Name" /> <br />
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gen" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gen" value="female" />
+          <label for="female">Female</label>
+          <input
+            type="checkbox"
+            id="others"
+            name="gen"
+            value="Others"
+            disabled
+          />
+          <label for="others">Others</label>
+        </fieldset>
+      </form>
+      <form>
+        <fieldset>
+          <legend id="caption">Registration</legend>
+          <label for="e-mail">E-mail:</label>
+          <input type="e-mail" placeholder="email@abc.com" /> <br />
+          <br />
+          <label for="password">Password:</label>
+          <input type="password" placeholder="password" /> <br />
+          <br />
+          <label for="d o b">Date of Birth:</label>
+          <input type="date" name="" id="" min="2000-01-01" max="2025-01-01" />
+          <br />
+          <br />
+          <label for="level">Level:</label>
+          <select name="" id="">
+            <option value="">High School</option>
+            <option value="">University</option>
+            <option value="">Others</option>
+          </select>
+
+          <label for="department">Department:</label>
+          <select name="" id="">
+            <option value="">Engineering</option>
+            <option value="">data Science</option>
+            <option value="">Others</option>
+          </select>
+          <br />
+          <br />
+          <label for="tel">Tel/Mobile:</label>
+          <input
+            type="tel"
+            name=""
+            id=""
+            placeholder="ex:+47 xxx xx xxx"
+            pattern="[0-9]{0-3}-[0-9]{0-2}-[0-9]{0-3}"
+          />
+          <br />
+          <br />
+          <button id="register"><a href="form2.html">Register</a></button>
+        </fieldset>
+        <br />
+
+        <button id="next"><a href="form2.html">Next Page</a></button>
+      </form>
+    </div>
+  </body>
+</html>
